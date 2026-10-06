@@ -5,6 +5,7 @@ const STYLING_URL = process.env.STYLING_URL ?? "http://localhost:3002";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  transpilePackages: ["@repo/ui"],
   async rewrites() {
     return [
       { source: "/closet", destination: `${CLOSET_URL}/closet` },
