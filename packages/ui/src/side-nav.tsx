@@ -10,7 +10,7 @@ export function SideNav() {
   return (
     <nav
       aria-label="주요 메뉴"
-      className="sticky top-14 hidden h-[calc(100dvh-3.5rem)] w-56 shrink-0 flex-col gap-1 border-r border-border p-3 md:flex"
+      className="sticky top-[calc(3.5rem_+_env(safe-area-inset-top))] hidden h-[calc(100dvh_-_3.5rem_-_env(safe-area-inset-top))] w-56 shrink-0 flex-col gap-1 border-r border-border p-3 md:flex"
     >
       {tabs.map(({ href, label, icon }) => {
         const active = isActive(pathname, href);
