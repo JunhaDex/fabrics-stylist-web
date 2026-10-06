@@ -1,0 +1,10 @@
+/*
+ * stylist-web Tailwind 진입 CSS. 각 앱의 globals.css가 이 파일을 import한 뒤
+ * 자기 소스만 @source로 추가한다.
+ * source(none): 자동 탐지를 끄고 스캔 대상을 @source로만 지정한다.
+ */
+@import "tailwindcss" source(none);
+@import "@junhadex/theme-neutral/theme.css";
+
+@source "../node_modules/@junhadex/core/dist";
+@source "./";
