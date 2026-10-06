@@ -9,7 +9,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <TopBar />
       <div className="flex flex-1">
         <SideNav />
-        <div className="min-w-0 flex-1">{children}</div>
+        <div className="min-w-0 flex-1 pr-[env(safe-area-inset-right)] pl-[env(safe-area-inset-left)] md:pl-0">{children}</div>
       </div>
       <BottomTabBar />
     </div>

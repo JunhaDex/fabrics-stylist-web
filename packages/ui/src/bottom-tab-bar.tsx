@@ -10,7 +10,7 @@ export function BottomTabBar() {
   return (
     <nav
       aria-label="주요 메뉴"
-      className="sticky bottom-0 z-10 flex border-t border-border bg-surface pb-[env(safe-area-inset-bottom)] md:hidden"
+      className="sticky bottom-0 z-10 flex border-t border-border bg-surface pr-[env(safe-area-inset-right)] pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] md:hidden"
     >
       {tabs.map(({ href, label, icon }) => {
         const active = isActive(pathname, href);

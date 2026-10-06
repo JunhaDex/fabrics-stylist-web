@@ -10,7 +10,7 @@ export function SideNav() {
   return (
     <nav
       aria-label="주요 메뉴"
-      className="sticky top-[calc(3.5rem_+_env(safe-area-inset-top))] hidden h-[calc(100dvh_-_3.5rem_-_env(safe-area-inset-top))] w-56 shrink-0 flex-col gap-1 border-r border-border p-3 md:flex"
+      className="sticky top-[calc(3.5rem_+_env(safe-area-inset-top))] hidden h-[calc(100dvh_-_3.5rem_-_env(safe-area-inset-top))] w-[calc(14rem_+_env(safe-area-inset-left))] shrink-0 flex-col gap-1 border-r border-border p-3 pl-[calc(0.75rem_+_env(safe-area-inset-left))] md:flex"
     >
       {tabs.map(({ href, label, icon }) => {
         const active = isActive(pathname, href);
