@@ -11,3 +11,8 @@
 
 /* 모드는 <html data-mode>로 결정된다. prefers-color-scheme 대신 이 속성에 dark:를 연결한다. */
 @custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+
+/* 스크롤바·기본 폼 컨트롤도 모드를 따르게 한다. theme-neutral에 제안한 항목이다. */
+[data-mode="dark"] {
+  color-scheme: dark;
+}
