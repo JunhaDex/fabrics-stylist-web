@@ -23,6 +23,7 @@
   "dependencies": {
     "@junhadex/core": "^0.3.0",
     "@junhadex/theme-neutral": "^0.3.0",
+    "@repo/contracts": "workspace:*",
     "lucide": "^1.47.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",

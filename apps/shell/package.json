@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@junhadex/core": "^0.3.0",
+    "@repo/contracts": "workspace:*",
+    "@repo/mock": "workspace:*",
     "@repo/ui": "workspace:*",
     "next": "^16.3.4",
     "react": "^19.2.8",
