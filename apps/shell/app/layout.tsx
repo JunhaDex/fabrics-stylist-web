@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { AppShell } from "@repo/ui/app-shell";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -18,9 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" data-mode="light">
-      <body className="bg-surface text-on-surface">
-        <AppShell>{children}</AppShell>
-      </body>
+      <body className="bg-surface text-on-surface">{children}</body>
     </html>
   );
 }

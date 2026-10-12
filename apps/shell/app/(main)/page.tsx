@@ -2,7 +2,7 @@ import { CategorySummary } from "@repo/ui/category-summary";
 import { HashtagEntry } from "@repo/ui/hashtag-entry";
 import { ItemCard } from "@repo/ui/item-card";
 import { OutfitCard } from "@repo/ui/outfit-card";
-import { getHome } from "../server/home";
+import { getHome } from "../../server/home";
 
 export default async function Page() {
   const { user, outfit, recentItems, categoryCounts } = await getHome();
