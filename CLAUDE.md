@@ -25,8 +25,8 @@ apps/shell      기본 zone. /, /login, /.well-known/*. 다른 zone으로 보내
 apps/closet     /closet/*, assetPrefix /closet-static. 옷장 목록·상세·등록 (3001)
 apps/styling    /styling/*, assetPrefix /styling-static. 해시태그 TPO 입력과 추천 결과 (3002)
 packages/ui     프로젝트 전용 재사용 컴포넌트와 Tailwind 진입 CSS (@repo/ui)
-packages/contracts  zod 스키마와 타입 (@repo/contracts, 예정)
-packages/mock       fixture와 mock adapter, server-only (@repo/mock, 예정)
+packages/contracts  zod 스키마와 타입 (@repo/contracts)
+packages/mock       fixture와 mock adapter, server-only (@repo/mock)
 packages/eslint-config, packages/typescript-config
 ```
 
